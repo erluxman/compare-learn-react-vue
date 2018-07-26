@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
 // and is associated with an HTML template that defines
 // a view to be displayed in a target environment.
 @Component({
+  // this defines the tag of the component we can use in html
   selector: 'app-main',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
